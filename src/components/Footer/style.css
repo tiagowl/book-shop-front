@@ -1,0 +1,76 @@
+footer{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    flex-direction: column;
+    height: auto;
+}
+
+.mobile-direction{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.f-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.three p{
+    margin: 0 auto;
+    color: rgb(67, 66, 66);
+}
+
+.languages{
+    display: flex;
+    margin: 0 auto;
+}
+
+.two{
+    margin: 0 auto;
+}
+
+.two p{
+    font-size: 0.7;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p{
+    color: rgb(67, 66, 66);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#logo-footer{
+    color: rgb(67, 66, 66);
+}
+
+.social-network{
+    display: flex;
+}
+
+.fa-facebook-f, .fa-youtube, .fa-instagram, .fa-twitter{
+    color: rgb(67, 66, 66);
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.fa-react, .fa-node, .fa-bootstrap{
+    color: rgb(67, 66, 66);
+    font-size: 1.5rem;
+    margin-left: 10px;
+}

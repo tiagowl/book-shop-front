@@ -1,0 +1,75 @@
+.destaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 18%;
+    height: auto;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(189, 189, 189);
+    margin-right: 15px;
+}
+
+.destaque img{
+    height: 150px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.destaque-titulo{
+    font-size: 0.9rem;
+    color: rgb(135, 132, 132);
+    margin-left: 10px;
+}
+
+.destaque-preco{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+.sinopse{
+    background-color: white;
+    padding: 10px;
+}
+
+.sinopse p{
+    color: rgb(135, 132, 132);
+    font-size: 1rem;
+}
+
+.list-group{
+    width: 100%;
+}
+
+.list-group-item{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.list-group-item p{
+    margin-right: 350px;
+    margin-top: 15px;
+}
+
+#avaliacao{
+    margin: 0 auto;
+}
+
+#avaliar{
+    width: 10%;
+    font-size: 0.8rem;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
+
+.avaliacao-item{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

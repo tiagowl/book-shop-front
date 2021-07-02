@@ -1,0 +1,37 @@
+.favorito{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 17px;
+    width: 30%;
+}
+
+.favorito img{
+    margin: 0 auto;
+    width: 30%;
+    height: 200px;
+}
+
+.favorito-titulo{
+    color: rgb(211, 208, 208);
+}
+
+.favorito-preco{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(65, 65, 65);
+}
+
+#favoritos{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+hr{
+    color: rgb(146, 144, 144);
+}
+
+.col-md-12{
+    display: flex;
+    flex-wrap: wrap;
+}

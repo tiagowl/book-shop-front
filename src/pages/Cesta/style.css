@@ -1,0 +1,64 @@
+.col-md-7{
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.cesta{
+    padding-top: 40px;
+    margin-top: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.produto{
+    height: 30px;
+}
+
+.quantidade-produto{
+    width: 50px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+img{
+    width: 70px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.preco-produto{
+    margin-top: 25px;
+}
+
+p{
+    font-weight: bold;
+    color: gray;
+}
+
+#titulo-resumo{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#resumo-informacoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#resumo-informacoes p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+#resumo-total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#resumo-total p{
+    color: black;
+    font-size: 1.4rem;
+}
+
+

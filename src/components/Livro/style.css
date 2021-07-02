@@ -1,0 +1,24 @@
+.livro-item{
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    /* width: 67%; */
+    margin-top: 30px;
+    /* height: auto; */
+    padding-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+.livro-item-img{
+    height: 290px;
+    width: 25%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.livro-item-informacoes h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(112, 110, 110);
+}

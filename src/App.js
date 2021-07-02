@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import Main from './pages/Main';
+import Navbar from './components/Navbar';
+import LivroContent from './pages/Livro';
+import Cadastro from './pages/Cadastro';
+import Login from './pages/Login';
+import Favoritos from './pages/Favoritos';
+import Footer from './components/Footer';
+import Cesta from './pages/Cesta';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './global.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+        <BrowserRouter>
+          <Navbar/>
+            <div className="container">
+          <Switch>
+            <Route path="/" exact component={Main} />
+            <Route path="/livro/:id" exact component={LivroContent} />
+            <Route path="/cadastro" component={Cadastro} />
+            <Route path="/login" component={Login} />
+            <Route path="/favoritos" component={Favoritos} />
+            <Route path="/cesta" exact component={Cesta} />
+          </Switch>
+            </div>
+          <Footer/>
+        </BrowserRouter>
+      
     </div>
   );
 }

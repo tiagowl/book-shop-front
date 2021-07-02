@@ -1,0 +1,29 @@
+#sidebar{
+    /* /* width: 20%; */
+    height: auto; 
+    border-right: solid 2px rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.lista-categoria{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.lista-categoria input{
+    margin-right: 5px;
+}
+
+.lista-categoria li{
+    font-size: 0.9rem;
+}
+
+.titulo-lista{
+    font-weight: bold;
+    margin-bottom: 10px;
+}

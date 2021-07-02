@@ -1,0 +1,63 @@
+.livro{
+    display: flex;
+    justify-content: flex-start;
+    border-right: 1px solid rgb(202, 202, 202);
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    width: 32%;
+    flex-wrap: wrap;
+}
+
+.livro-img{
+    height: 170px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.livro-titulo{
+    color: gray;
+    font-size: 0.95rem;
+    margin-left: 20px;
+}
+
+.livro-titulo a{
+    text-decoration: none;
+    color: gray;
+}
+
+.livro-quantidade{
+    color: rgb(58, 58, 58);
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.livro-preco{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.livro-parcelas{
+    color: rgb(41, 41, 41);
+    font-size: 0.7rem;
+    margin-left: 20px;
+}
+
+#main-content{
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+@media(max-width: 640px){
+    .livro{
+        width: 200px;
+    }
+}

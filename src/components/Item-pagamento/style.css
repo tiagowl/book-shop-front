@@ -1,0 +1,40 @@
+.livro-item-pagamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* height: auto; */
+    /* width: 30%; */
+    height: 350px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.livro-item-pagamento-preco{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(112, 110, 110);
+    margin-left: 10px;
+}
+
+.livro-item-pagamento-parcelas{
+    font-size: 1rem;
+    color: rgb(112, 110, 110);
+    margin-left: 10px;
+}
+
+.livro-item-pagamento-comprar{
+    /* background-color: #367fa9; */
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 3px;
+    font-size: 1.3rem;
+}
